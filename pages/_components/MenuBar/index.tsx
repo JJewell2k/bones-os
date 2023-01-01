@@ -86,56 +86,7 @@ const MenuBar = () => {
             <Menu
               title={currentActiveMenu}
               items={[
-                {
-                  title: "About this Site",
-                  separator: true,
-                  rightLabel: ""
-                },
-                {
-                  title: "System Preferences",
-                  separator: false,
-                  rightLabel: ""
-                },
-                {
-                  title: "App Store...",
-                  separator: true,
-                  rightLabel: "8 updates"
-                },
-                {
-                  title: "Recent Items",
-                  separator: true,
-                  rightLabel: ""
-                },
-                {
-                  title: "Force Quit",
-                  separator: true,
-                  rightLabel: "⌥⌘⎋"
-                },
-                {
-                  title: "Sleep",
-                  separator: false,
-                  rightLabel: ""
-                },
-                {
-                  title: "Restart...",
-                  separator: false,
-                  rightLabel: ""
-                },
-                {
-                  title: "Shut Down...",
-                  separator: true,
-                  rightLabel: ""
-                },
-                {
-                  title: "Lock Screen",
-                  separator: false,
-                  rightLabel: "^⌘Q"
-                },
-                {
-                  title: "Log Out Soroush...",
-                  separator: false,
-                  rightLabel: "⇧⌘Q"
-                }
+               
               ]}
             />
           )}
@@ -157,41 +108,7 @@ const MenuBar = () => {
             <Menu
               title={currentActiveMenu}
               items={[
-                {
-                  title: "About Finder",
-                  separator: true,
-                  rightLabel: ""
-                },
-                {
-                  title: "Preferences...",
-                  separator: true,
-                  rightLabel: "⌘ ,"
-                },
-                {
-                  title: "Empty Trash...",
-                  separator: true,
-                  rightLabel: "⇧⌘⌫"
-                },
-                {
-                  title: "Services",
-                  separator: true,
-                  rightLabel: ""
-                },
-                {
-                  title: "Hide Finder",
-                  separator: false,
-                  rightLabel: "⌘H"
-                },
-                {
-                  title: "Hide Others",
-                  separator: false,
-                  rightLabel: "⌥⌘H"
-                },
-                {
-                  title: "Show All",
-                  separator: false,
-                  rightLabel: ""
-                }
+                
               ]}
             />
           )}

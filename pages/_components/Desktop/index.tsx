@@ -8,21 +8,7 @@ interface DesktopItem {
 }
 
 const desktopItems: DesktopItem[] = [
-  {
-    id: '1',
-    type: 'Disc',
-    title: 'Macintosh HD',
-  },
-  {
-    id: '2',
-    type: 'Folder',
-    title: 'Giant Sur',
-  },
-  {
-    id: '3',
-    type: 'PDF',
-    title: 'Example.pdf',
-  },
+
 ]
 
 const Desktop = () => {
@@ -33,17 +19,7 @@ const Desktop = () => {
     let iconSrc: string = ''
 
     switch (type) {
-      case 'Folder':
-        iconSrc = '/images/folder-icon.png'
-        break
-      case 'Disc':
-        iconSrc = '/images/disk-icon.png'
-        break
-      case 'PDF':
-        iconSrc = '/images/pdf-icon.png'
-        break
-      default:
-        break
+
     }
 
     return (
