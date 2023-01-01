@@ -2,10 +2,7 @@ import { useRef, memo, MutableRefObject } from 'react'
 import { useStoreActions } from '../../../store'
 
 const dockButtons: { title: string; logo: string }[] = [
-  {
-    title: 'Finder',
-    logo: 'images/finder-logo.png',
-  },
+ 
 ]
 
 const Dock = () => {
